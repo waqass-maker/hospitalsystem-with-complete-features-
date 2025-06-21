@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: hospital
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: khankhattakwaqas@gmail.com
+    password: rxgv jsin tjsp opzm
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
